@@ -27,7 +27,7 @@ body {
   left: 0;
   width: 100%;
   height: var(--nav-height);
-  background: url('images/hero-bg.jpg');
+  background: url('images/hero-bg-hd.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,7 +54,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: url('images/hero-bg.jpg');
+  background: url('images/hero-bg-hd.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
