@@ -65,7 +65,8 @@ body {
   letter-spacing: 0.1em;
   font-size: 0.85rem;
   margin: 0 0 6px;
-  color: #1a1a1a;
+  color: #fff;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.55);
 }
 
 .hero-text h1 {
@@ -73,7 +74,8 @@ body {
   font-weight: 500;
   font-size: clamp(2.6rem, 6vw, 4.2rem);
   margin: 0 0 40px;
-  color: #1a1a1a;
+  color: #fff;
+  text-shadow: 0 2px 14px rgba(0,0,0,0.6);
 }
 
 .arrow-circle {
@@ -83,8 +85,9 @@ body {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  border: 1.5px solid #1a1a1a;
-  color: #1a1a1a;
+  border: 1.5px solid #fff;
+  color: #fff;
+  background: rgba(0,0,0,0.15);
   text-decoration: none;
   font-size: 1.1rem;
   animation: bob 2.2s ease-in-out infinite;
