@@ -27,10 +27,8 @@ body {
   left: 0;
   width: 100%;
   height: var(--nav-height);
-  background: url('images/hero-bg-web.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: #f8f6f1;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,10 +40,12 @@ body {
   font-family: var(--font-serif);
   font-weight: 600;
   font-size: 1.3rem;
-  color: #fff;
+  color: var(--ink);
   text-decoration: none;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.35);
+  transition: opacity 0.15s ease;
 }
+
+.site-nav a:hover { opacity: 0.55; }
 
 /* ---------- Hero (home) ---------- */
 .hero {
