@@ -141,8 +141,8 @@ body {
 
 /* ---------- About / Bio / Footer wrap ---------- */
 .about-wrap {
-  background: url('images/about-bg.jpg');
-  background-size: 900px auto;
+  background: url('images/about-bg-seamless.jpg');
+  background-size: 1600px auto;
   background-repeat: repeat;
   padding: 90px 8vw 60px;
 }
